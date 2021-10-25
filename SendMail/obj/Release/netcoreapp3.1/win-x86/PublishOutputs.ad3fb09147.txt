@@ -1,0 +1,7 @@
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\SendMail.exe
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.Development.json
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.json
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\SendMail.dll
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\SendMail.deps.json
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\SendMail.runtimeconfig.json
+C:\WorkingDirectory\sendMail\SendMail\obj\Release\netcoreapp3.1\win-x86\PubTmp\Out\SendMail.pdb

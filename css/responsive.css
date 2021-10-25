@@ -1,0 +1,159 @@
+@media screen and (max-width:991px){
+	.logo {
+    text-align: center;
+}
+	.sign-section ul li {
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 6px;
+	    border-right: none;
+
+}
+.sign-section ul {
+    justify-content: center;
+}
+.sign-section {
+  float:none;
+  margin-bottom: 15px;
+}
+.sign-section ul li a {
+    font-size: 13px;
+}
+.copyright ul {
+    list-style: none;
+     display: block; 
+     padding-left: 0px; 
+    text-align: left; 
+}
+.page-title-area .page-header-content .page-header-caption > h1 {
+    font-size: 24px;
+}
+.page-title-area .page-header-content {
+    display: block;
+    text-align: center;
+}
+.page-title-area .page-header-content .breadcrumb-content-area {
+    display: block;
+}
+.breadcrumb-area .breadcrumb {
+    display: inline-block;
+}
+.breadcrumb-area .breadcrumb .breadcrumb-item {
+    display: inline-block;
+}
+.about-us-section .about-content > h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.our-work-process-section .single-process {
+    margin-bottom: 60px;
+}
+.our-work-process-section .process-list > div:nth-child(2) {
+    margin-top: 0px;
+}
+}
+
+@media all and (max-width: 300px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .testim .arrow {
+        font-size: 1.5em;
+    }
+    
+    .testim .cont div p {
+        line-height: 25px;
+    }
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+@media (max-width:768px) {
+  .recipient {
+    margin-left: 115px;
+  
+  }
+  .receiver h6 {
+    text-align: left;
+    margin-left: 0px;
+}
+.receiver p {
+  text-align: left;
+  margin-left: 0px;
+
+}
+.recieve{
+  margin-left: 50px;
+
+}
+.pay-process h6 {
+  text-align: left;
+  margin-left: 0px;
+}
+.pay-process p {
+text-align: left;
+margin-left: 0px;
+
+}
+.registration-user {
+  margin-top: 20px;
+}
+.contact-info-area{
+  margin-top: 100px;
+}
+.map-marker {
+  margin-top: -60px;
+}
+.address-fix {
+   margin-left: 0px;
+}
+.transfer-details {
+  margin-left: 115px;
+}
+}

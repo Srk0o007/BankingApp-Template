@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>SOSUDAPAY</title>
+      <!-- responsive meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- favicon -->
+        <link rel="icon" href="./img/favicon.png" type="image/gif" sizes="18x18">
+
+
+      <!-- For IE code-->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="top-header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="logo">
+                        <img src="img/logo.png">
+                     </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                     <div class="sign-section">
+                        <ul>
+                           <li>
+                               <a href="#"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-download"></i> 
+                                Download App 
+                                </button>
+                              
+                              
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered ">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title text-center" id="exampleModalLabel"> Enter your email:</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6></h6>
+                                        <form class="subscribe_form">
+                                            <div class="input-group">
+                                               <input type="email" placeholder="Enter your email" class="form-control" id="appemail" required />
+                                               <span class="input-group-btn">
+                                               <button id="appsubscription" class="btn btn-default subscribe-btn"  type="submit">Submit</button>
+                                               </span>
+                                               <p></p>
+                                               <p></p>
+                                            </div>
+                                         </form>
+                                    <div class="modal-footer">
+                                      <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a></li>
+                           <li><a href="#"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> Offers </button></a></li>
+                           <li><a href="faq.html"> <button type="button" class="btn"> FAQ </button></a></li>
+                           <!-- <li><a href="#"> <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Login/Sign up </button></a> <i class="fas fa-user"></i></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page-wrapper">
+            <div class="nav-wrapper">
+               <div class="grad-bar"></div>
+               <div class="container">
+
+                  <nav class="navbar navbar-expand-lg navbar-light ">
+                  
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#000; font-size:28px;"></i>
+                       </span>
+                     </button>
+                   
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav mr-auto nav" id="navbarSupportedContent">
+                        
+                           <li class="nav-item active"><a href="index.html"><i class="far fa-paper-plane"></i> <br>Send Money</a></li>
+                           <li class="nav-item"><a href="add-money.html"><i class="fas fa-plus"></i><br> Add Money</a></li>
+                           <li class="nav-item"><a href="your-bank.html"><i class="fas fa-university"></i><br> Your Bank</a></li>
+                        <li class="nav-item"><a href="currency-change.html"><i class="fas fa-coins"></i><br> Currency Change</a></li>
+                        <li class="nav-item"><a href="about-us.html"><i class="fas fa-user"></i> <br>About Us</a></li>
+                        <li class="nav-item"><a href="contact-us.html"><i class="fas fa-phone-alt"></i><br> Contact Us</a></li>
+                        <li class="nav-item"><a href="faq.html"><i class="far fa-copy"></i> <br>FAQ</a></li>
+                        <li class="nav-item"><a href="#"><i class="fas fa-globe"></i> EN <i class="fas fa-sort-down"></i></a></li>
+                        
+                       </ul>
+                       
+                     </div>
+                   </nav>
+                <!--  <nav class="navbar">
+                     <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                     </div>
+               
+                     <ul class="nav" id="navbarSupportedContent">
+                        <li class="nav-item active"><a href="index.html"><i class="far fa-paper-plane"></i> <br>Send Money</a></li>
+                        <li class="nav-item"><a href="add-money.html"><i class="fas fa-plus"></i><br> Add Money</a></li>
+					 <li class="nav-item"><a href="crowdfunding.html"><i class="fas fa-hand-holding-usd"></i><br> Crowdfunding </a></li> 
+                        <li class="nav-item"><a href="your-bank.html"><i class="fas fa-university"></i><br> Your Bank</a></li>
+                        <li class="nav-item"><a href="currency-change.html"><i class="fas fa-coins"></i><br> Currency Change</a></li>
+                        <li class="nav-item"><a href="about-us.html"><i class="fas fa-user"></i> <br>About Us</a></li>
+                        <li class="nav-item"><a href="contact-us.html"><i class="fas fa-phone-alt"></i><br> Contact Us</a></li>
+                        <li class="nav-item"><a href="faq.html"><i class="far fa-copy"></i> <br>FAQ</a></li>
+                        <li class="nav-item"><a href="#"><i class="fas fa-globe"></i> EN <i class="fas fa-sort-down"></i></a></li>
+                     </ul>
+                  </nav>-->
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="container">
+         <div class="banner-section">
+            <div class="row">
+              <!--- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="form-left card-outline-secondary">
+                     <div class="card-body">
+                        <p class="text-center"><strong>Send money to anyone Easy & Fast </strong></p>
+                        <form autocomplete="off" class="form" role="form">
+                           <div class="form-group">
+                              <div class="input-group">
+                                 <div class="input-group-addon">
+                                    <span class="input-group-text" id="basic-addon1">$</span>
+                                 </div>
+                                 <input class="form-control" id="exampleInputAmount" placeholder="Please Enter Mobile" type="text">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <input autocomplete="off" class="form-control" maxlength="20" placeholder="Add message optional" pattern="\d{16}" required="" title="Credit card number" type="text">
+                           </div>
+                           <div class="form-group">
+                              <div class="input-group">
+                                 <div class="input-group-addon">
+                                    <span class="input-group-text" id="basic-addon1">$</span>
+                                 </div>
+                                 <input class="form-control" id="exampleInputAmount" placeholder="Enter Amount" type="text">
+                              </div>
+                           </div>
+                           <hr>
+                           <div class="form-group row">
+                              <div class="col-md-12">
+                                 <button class="btn btn-success btn-lg btn-block bg-other" type="submit">Continue to Send Money</button>
+                              </div>
+                           </div>
+                           <div class="sign-up text-center">
+                              New to SOSUDAPAY? <a href="#">Sign Up Now</a>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  
+               </div>-->
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img class="d-block w-100" src="./img/img1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img/img4.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img/img2.jpg" alt="Third slide">
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="about-section mt-3 p-3">
+            <h6>Send money to anyone Easy & Fast</h6>
+          <!-- <h6>About SOSUDAPAY</h6> -->
+            <p>SOSUDAPAY Wallet is the most innovative digital Wallet. We innovate and simplify the way individuals and businesses accept, process, and disburse digital payments SOSUDAPAY has been introduced as a Fintech business to build digital payments technology.</p>
+            <p>We provide payment gateway services in the aggregation model, capable of meeting the rapidly growing e-Commerce demand and digital wallet services. Mainly targeted at the growing SME segment, SOSUDAPAY Payments will always endeavour to serve and delight the Merchants and Individuals. SOSUDAPAY aims to be the favourite digital payment services provider for worldwide providing a seamless, stable, secured experience to businesses and individuals. With SOSUDAPAY you can recharge, pay your bills, and make online bookings and much more.</p>
+            <div class="about-read-more"><a href="about-us.html">Read More</a></div>
+         </div>
+        <!--- <div class="refer-earn mt-4">
+            <h3>Refer & Earn</h3>
+            <h6>Refer your friends and earn up to $20</h6>
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="columns-section">
+                     <img src="img/refer-friend.png">
+                     <h5>Refer Your Friends</h5>
+                     <p>Share  your referral link with friends. They got $10</p>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="columns-section">
+                     <img src="img/friend-register.png">
+                     <h5>Your Friends Register</h5>
+                     <p>Your friends register with using referral link.</p>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="columns-section">
+                     <img src="img/earn-you.png">
+                     <h5>Earn You</h5>
+                     <p>You get $20.You can use these credits to take recharge </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12  mx-auto">
+                  <button class="btn btn-success btn-lg btn-block bg-other" type="submit">Get Started Earn</button>
+               </div>
+            </div>
+         </div>-->
+         <div class="downlod-app">
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="SOSUDAPAY-downlodapp-img">
+                     <img src="img/SOSUDAPAY-downlodapp-img-2.png">
+                  </div>
+               </div>
+               <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                  <div class="download-app-section">
+                     <h3>Download Our SOSUDAPAY<br> Mobile App Now</h3>
+                     <p>Get the sosudaPay mobile Wallet app to make your digital payments on the move. With sosuday pay wallet you can Get live exchange rates with our all-in-one currency converter, transfer money , repeat transactions or add money  and track your transfers on the go with no hidden cost  no matter wherever just by downloading sosodapay wallet an ultimate mobile payment solution app.</p>
+ <p>Download sosudapay wallet mobile app from App store or Google Play to make your transactions transparent, safer faster and much more.</p>
+                     <div class="row  mx-auto text-center">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                           <div class="btn-img">
+                              <a href="#"><img src="img/google-play.png"></a>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                           <div class="btn-img">
+                              <a href="#"><img src="img/app-store.png"></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="support-section">
+            <div class="row"style="
+            margin-bottom: 40px";>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="columns-section">
+                     <i class="fas fa-lock"></i>
+                     <h5>100% Secure Payments</h5>
+                     <p>Moving your card details to much more secured place</p>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="columns-section">
+                     <i class="far fa-thumbs-up"></i>
+                     <h5>Trust Pay</h5>
+                     <p>100% Payment Protection Easy Return Policy</p>
+                  </div>
+               </div>
+               <!--<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                  <div class="columns-section">
+                     <i class="fas fa-bullhorn"></i>
+                     <h5>Refer & Earn</h5>
+                     <p>Refer your friends and earn up to $20</p>
+                  </div>
+               </div>-->
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="columns-section">
+                     <i class="far fa-life-ring"></i>
+                     <h5>24x7 Support</h5>
+                     <p>We're to help. Have a query and need help? <a href="./contact-us.html">Click Here</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bg">
+         <div class="container">
+         <footer class="footer">
+            <div class="row">
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="foot-section">
+                     <h6>Payment</h6>
+                     <img src="img/cards.png">
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="foot-section">
+                     <h6>Subscribe</h6>
+                     <form class="subscribe_form">
+                        <div class="input-group">
+                           <input type="email" class="form-control" id="footeremail" placeholder="Your email address" required />
+                           <span class="input-group-btn">
+                           <button class="btn btn-default subscribe-btn"  id="footeremailsubmit">subscribe</button>
+                           </span>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="foot-section">
+                     <h6>Keep in touch</h6>
+                     <a target="_blank" href="https://www.facebook.com/SOSUDA-TECH-101114094624418"><i class="fab fa-facebook-f"></i></a>
+                     <a target="_blank" href="https://www.twitter.com/sosudatech/"><i class="fab fa-twitter"></i></a>
+                     <a target="_blank" href="https://www.linkedin.com/company/sosuda-tech"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <div class="copyright mt-4">
+            <ul>
+               <li><a href="./about-us.html">About Us</a></li>
+               <li><a href="faq.html">FAQ</a></li>
+               <li><a href="./contact-us.html">Contact</a></li>
+               <li><a href="./sitemap.html">Sitemap</a></li>
+               <li><a href="./term&conditions.html">Terms & Conditions</a></li>
+               <li><a href="./privacyPolicy.html">Privacy Policy</a></li>
+            </ul>
+            <p>Copyright © 2020.All Rights Reserved</p>
+         </div>
+      </div>
+           <!-- Modal -->
+  <div class="modal fade" id="successfulModal"  role="alertdialog">
+   <div class="modal-dialog modal-dialog-centered ">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title text-center" id="exampleModalLabel1">Thank You !</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         We've received your information and get back to you soon.
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       
+       </div>
+     </div>
+   </div>
+ </div>
+   </div>
+       <script src="js/jquery-3.5.1.min.js"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>     
+      <script src="js/sendMail.js"></script>      
+      <script>
+      
+      $(document).ready(function () {
+ 
+         $("ul li").click(function(e)
+                                {
+                                    $("ul .active").removeClass("active");
+                                    $(this).addClass("active");
+                                   // e.preventDefault();
+                                   // return false;
+                                });
+                              });
+
+         $('#appsubscription').click(function(e)
+         {
+            var email= $('#appemail').val();
+            if(email == "")
+            {
+               return ;
+            }
+           
+            else if( !validateEmail(email)) 
+            {
+               return ; 
+            }      
+            else
+            {
+               $('#successfulModal').modal();  
+               $('#exampleModal').modal('hide');        
+               sendmail(email,"TestMail","TestMail","sendmail");
+               e.preventDefault();    
+            }
+         
+         });
+
+         $('#footeremailsubmit').click(function(e)
+         {
+           
+            var email= $('#footeremail').val();
+            if(email == "")
+            {
+               return ;
+            }
+           
+            else if( !validateEmail(email)) 
+            {
+               return ; 
+            }      
+            else
+            {
+               $('#successfulModal').modal();  
+               $('#exampleModal').modal('hide');   
+                 
+               sendmail(email,"TestMail","TestMail","sendmail");
+               e.preventDefault();        
+              
+            }
+            
+         });
+
+         
+      </script>
+   </body>
+</html>

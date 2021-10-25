@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>SOSUDAPAY</title>
+      <!-- responsive meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- favicon -->
+        <link rel="icon" href="./img/favicon.png" type="image/gif" sizes="18x18">
+
+
+      <!-- For IE code-->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="top-header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="logo">
+                        <img src="img/logo.png">
+                     </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                     <div class="sign-section">
+                        <ul>
+                           <li>
+                               <a href="#"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-download"></i> 
+                                Download App 
+                                </button>
+                              
+                              
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered ">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title text-center" id="exampleModalLabel"> Enter your email:</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6></h6>
+                                        <form class="subscribe_form">
+                                            <div class="input-group">
+                                               <input type="email" placeholder="Enter your email" class="form-control" id="appemail" required />
+                                               <span class="input-group-btn">
+                                               <button id="appsubscription" class="btn btn-default subscribe-btn"  type="submit">Submit</button>
+                                               </span>
+                                               <p></p>
+                                               <p></p>
+                                            </div>
+                                         </form>
+                                    <div class="modal-footer">
+                                      <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div></a></li>
+                           <li><a href="#"><button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> Offers </button></a></li>
+                           <li><a href="faq.html"> <button type="button" class="btn"> FAQ </button></a></li>
+                           <!-- <li><a href="#"> <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Login/Sign up </button></a> <i class="fas fa-user"></i></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page-wrapper">
+            <div class="nav-wrapper">
+               <div class="grad-bar"></div>
+               <div class="container">
+
+                  <nav class="navbar navbar-expand-lg navbar-light ">
+                  
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#000; font-size:28px;"></i>
+                       </span>
+                     </button>
+                   
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav mr-auto nav" id="navbarSupportedContent">
+                        
+                           <li class="nav-item"><a href="index.html"><i class="far fa-paper-plane"></i> <br>Send Money</a></li>
+                           <li class="nav-item"><a href="add-money.html"><i class="fas fa-plus"></i><br> Add Money</a></li>
+                           <li class="nav-item"><a href="your-bank.html"><i class="fas fa-university"></i><br> Your Bank</a></li>
+                        <li class="nav-item"><a href="currency-change.html"><i class="fas fa-coins"></i><br> Currency Change</a></li>
+                        <li class="nav-item"><a href="about-us.html"><i class="fas fa-user"></i> <br>About Us</a></li>
+                        <li class="nav-item"><a href="contact-us.html"><i class="fas fa-phone-alt"></i><br> Contact Us</a></li>
+                        <li class="nav-item active"><a href="faq.html"><i class="far fa-copy"></i> <br>FAQ</a></li>
+                        <li class="nav-item"><a href="#"><i class="fas fa-globe"></i> EN <i class="fas fa-sort-down"></i></a></li>
+                        
+                       </ul>
+                       
+                     </div>
+                   </nav>
+                <!--  <nav class="navbar">
+                     <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                     </div>
+               
+                     <ul class="nav" id="navbarSupportedContent">
+                        <li class="nav-item active"><a href="index.html"><i class="far fa-paper-plane"></i> <br>Send Money</a></li>
+                        <li class="nav-item"><a href="add-money.html"><i class="fas fa-plus"></i><br> Add Money</a></li>
+					 <li class="nav-item"><a href="crowdfunding.html"><i class="fas fa-hand-holding-usd"></i><br> Crowdfunding </a></li> 
+                        <li class="nav-item"><a href="your-bank.html"><i class="fas fa-university"></i><br> Your Bank</a></li>
+                        <li class="nav-item"><a href="currency-change.html"><i class="fas fa-coins"></i><br> Currency Change</a></li>
+                        <li class="nav-item"><a href="about-us.html"><i class="fas fa-user"></i> <br>About Us</a></li>
+                        <li class="nav-item"><a href="contact-us.html"><i class="fas fa-phone-alt"></i><br> Contact Us</a></li>
+                        <li class="nav-item"><a href="faq.html"><i class="far fa-copy"></i> <br>FAQ</a></li>
+                        <li class="nav-item"><a href="#"><i class="fas fa-globe"></i> EN <i class="fas fa-sort-down"></i></a></li>
+                     </ul>
+                  </nav>-->
+               </div>
+            </div>
+         </div>
+      </header>
+  <div class="banner-section">
+    <div class="page-title-area text-white bg-image bg-overlay" style="background-image:url(img/about-us.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="page-header-content">
+              <div class="breadcrumb-content-area">
+                <div class="page-header-caption">
+                  <h1>FAQ</h1>
+                </div>
+                <div class="breadcrumb-area">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"> <i class="fa fa-home"></i>
+                        Home</a></li>
+                    <li class="breadcrumb-item"> <a href="#"><i class="fa fa-chevron-circle-right"></i>
+                        FAQ</a></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <!--~~./ page-header-content ~~-->
+          </div>
+        </div>
+      </div>
+      <!--~~./ end container ~~-->
+    </div>
+  </div>
+  <section class="faq">
+    <div class="container">
+      <div class="faq-title">
+        <h3>Get answers to your queries</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="faq-list">
+            <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+              <a data-toggle="collapse" class="collapsed" href="#faq1" aria-expanded="false">What is SOSUDAPAY? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq1" class="collapse" data-parent=".faq-list" style="">
+                <p>
+                  SOSUDAPAY is a highly functional and structural e-wallet mobile payment platform that facilitates
+                  users to send and receive money safely and quickly across the continent.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq2" class="collapsed">How do I get a SOSUDAPAY on my device? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq2" class="collapse" data-parent=".faq-list">
+                <p>
+                  For Android users, go to the Play Store and search for SOSUDAPAY app & tap 'Install' to Download the
+                  app on your Android device.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq3" class="collapsed">Which devices are compatible with SOSUDAPAY? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq3" class="collapse" data-parent=".faq-list">
+                <p>
+                  Compatible with all Android Devices.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq4" class="collapsed">How do I sign up for SOSUDAPAY? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq4" class="collapse" data-parent=".faq-list">
+                <p>
+                  Signing up for SOSUDAPAY Wallet account is easy. opt for any one of the following ways: </p>
+                <p>• WEB
+                  Visit www.SOSUDAPAY.com and sign up </p>
+                <p>• Mobile App
+                  Download free SOSUDAPAY mobile app for android </p>
+
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq5" class="collapsed">Do you verify my mobile number? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq5" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes. We send you a mobile verification code on your mobile number, the one you shared with us while
+                  signing up. If you do not receive a mobile verification code within 10 minutes, click on the resend
+                  verification tab on the sign-up page to get a new mobile verification code.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="600" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq6" class="collapsed">Is my account information safe? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq6" class="collapse" data-parent=".faq-list">
+                <p>
+                  Do not worry! SOSUDAPAY use your mobile number for identification and correspondence and does not
+                  share any of your bank details with anyone. All the information transmitted between you and SOSUDAPAY
+                  is guarded by our advanced encryption which ensures that any unauthorized access (hacking) is rejected
+                  at the entry level. For additional security, biometrics and passcode is associated to the application.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="700" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq7" class="collapsed">How do I protect my SOSUDAPAY Wallet account? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq7" class="collapse" data-parent=".faq-list">
+                <p>
+                  <strong>DO NOT SHARE your SOSUDAPAY Password with anyone.</strong> Still if you feel, your wallet
+                  password has been compromised at any time, please write to our customer service or reset your profile
+                  password from SOSUDAPAY. </p>
+                <p><strong>Please Note: We never ask for your password when you call us.</strong>
+
+
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="800" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq8" class="collapsed">What is add money? <i
+                  class="fas fa-chevron-down"></i></a>
+              <div id="faq8" class="collapse" data-parent=".faq-list">
+                <p>It simply means adding money to the wallet. Whenever you add money, we refer to it as "add money" and
+                  the amount you add reflects as your SOSUDAPAY balance.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="900" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq9" class="collapsed">Why is it necessary to add money to the wallet?
+                <i class="fas fa-chevron-down"></i></a>
+              <div id="faq9" class="collapse" data-parent=".faq-list">
+                <p>Since SOSUDAPAY is a wallet-based application, any money you add in your wallet can be used for a
+                  quick transaction between sender and receiver.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="1000" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq10" class="collapsed">How can I check my SOSUDAPAY Wallet 'Balance'?
+                <i class="fas fa-chevron-down"></i></a>
+              <div id="faq10" class="collapse" data-parent=".faq-list">
+                <p>In app, just click on “Tap to Reveal” on your home screen, your wallet balance is shown. On website,
+                  your wallet balance will be shown upon login.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="1100" class="aos-init aos-animate">
+              <a data-toggle="collapse" href="#faq11" class="collapsed">How do I refer a friend/ how to refer using
+                mobile number?
+                <i class="fas fa-chevron-down"></i></a>
+              <div id="faq11" class="collapse" data-parent=".faq-list">
+                <p>If you want to refer a friend on SOSUDAPAY: </p>
+                <p>
+                  On the app, select 'Invite New User' option from “Profile” screen. </p>
+                <p>Share the link over any social media platform or private message. </p>
+
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--<div class="container">
+    <div class="row mt-5 my-5">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="help-tab">
+          <div class="left-section">
+            <i class="far fa-envelope"></i>
+          </div>
+          <div class="right-section">
+            <p><strong>Can't find what your're looking for?</strong></p>
+            <p>We want to answer all of your queries. Get in touch and we'll get back to you soon as we can
+              <strong>Contact Us?</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <div class="help-tab">
+          <div class="left-section">
+            <i class="far fa-comment-alt"></i>
+          </div>
+          <div class="right-section">
+            <p><strong>Technical questions</strong></p>
+            <p>Have some technical questions? Hit us upon live chat or whatever. <strong>Click here ></strong></p>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+
+  </div>
+  <div class="footer-bg">
+    <div class="container">
+    <footer class="footer">
+       <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+             <div class="foot-section">
+                <h6>Payment</h6>
+                <img src="img/cards.png">
+             </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+             <div class="foot-section">
+                <h6>Subscribe</h6>
+                <form class="subscribe_form">
+                   <div class="input-group">
+                      <input type="email" class="form-control" id="footeremail" placeholder="Your email address" required />
+                      <span class="input-group-btn">
+                      <button class="btn btn-default subscribe-btn"  id="footeremailsubmit">subscribe</button>
+                      </span>
+                   </div>
+                </form>
+             </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+             <div class="foot-section">
+                <h6>Keep in touch</h6>
+                <a target="_blank" href="https://www.facebook.com/SOSUDA-TECH-101114094624418"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.twitter.com/sosudatech/"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/sosuda-tech"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+          </div>
+       </div>
+    </footer>
+    <div class="copyright mt-4">
+       <ul>
+          <li><a href="./about-us.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="./contact-us.html">Contact</a></li>
+          <li><a href="./sitemap.html">Sitemap</a></li>
+          <li><a href="./term&conditions.html">Terms & Conditions</a></li>
+          <li><a href="./privacyPolicy.html">Privacy Policy</a></li>
+       </ul>
+       <p>Copyright © 2020.All Rights Reserved</p>
+    </div>
+ </div>
+      <!-- Modal -->
+<div class="modal fade" id="successfulModal"  role="alertdialog">
+<div class="modal-dialog modal-dialog-centered ">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title text-center" id="exampleModalLabel1">Thank You !</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    We've received your information and get back to you soon.
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  
+  </div>
+</div>
+</div>
+</div>
+</div>
+  <script src="js/jquery-3.5.1.min.js"></script> 
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>     
+ <script src="js/sendMail.js"></script>      
+ <script>
+ 
+ $(document).ready(function () {
+
+    $("ul li").click(function(e)
+                           {
+                               $("ul .active").removeClass("active");
+                               $(this).addClass("active");
+                              // e.preventDefault();
+                              // return false;
+                           });
+                         });
+
+    $('#appsubscription').click(function(e)
+    {
+       var email= $('#appemail').val();
+       if(email == "")
+       {
+          return ;
+       }
+      
+       else if( !validateEmail(email)) 
+       {
+          return ; 
+       }      
+       else
+       {
+          $('#successfulModal').modal();  
+          $('#exampleModal').modal('hide');        
+          sendmail(email,"TestMail","TestMail","sendmail");
+          e.preventDefault();    
+       }
+    
+    });
+
+    $('#footeremailsubmit').click(function(e)
+    {
+      
+       var email= $('#footeremail').val();
+       if(email == "")
+       {
+          return ;
+       }
+      
+       else if( !validateEmail(email)) 
+       {
+          return ; 
+       }      
+       else
+       {
+          $('#successfulModal').modal();  
+          $('#exampleModal').modal('hide');   
+            
+          sendmail(email,"TestMail","TestMail","sendmail");
+          e.preventDefault();        
+         
+       }
+       
+    });
+
+    
+ </script>
+</body>
+</html>
